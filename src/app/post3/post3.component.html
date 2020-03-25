@@ -1,0 +1,8 @@
+<h2>post3 works!</h2>
+<button (click)="toggle = !toggle">Toggle[ngSwitch]</button>
+<button (click)="toggle = 111">Toggle 111</button>
+<div [ngSwitch]="toggle">
+ <p *ngSwitchCase="true" class="red">Lorem ipsum dolor sit amet.</p>
+ <p *ngSwitchCase="false" class="blue">Lorem ipsum dolor sit amet.</p>
+ <p *ngSwitchDefault class="green">Lorem ipsum dolor sit amet.</p>
+</div>
