@@ -18,6 +18,7 @@ import { PipesComponent } from './pipes/pipes.component';
 import { ExMarksPipe } from './pipes/ex-marks.pipe';
 import { FilterPipe } from './pipes/filter.pipe';
 import { AsyncPipeComponent } from './pipes/async-pipe/async-pipe.component';
+import { RxTechnoComponent } from './rx-techno/rx-techno.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AsyncPipeComponent } from './pipes/async-pipe/async-pipe.component';
     MultByPipe,
     ExMarksPipe,
     FilterPipe,
-    AsyncPipeComponent
+    AsyncPipeComponent,
+    RxTechnoComponent
   ],
   imports: [
     BrowserModule,
