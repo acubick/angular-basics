@@ -1,5 +1,27 @@
 <div class="container">
   <h3>Hello Angular World!</h3>
+
+  <div class="card">
+    <h2>App Counter: {{ appCounterService.counter }}</h2>
+
+    <button class="btn" (click)="appCounterService.increase()">+</button>
+    <button class="btn" (click)="appCounterService.decrease()">-</button>
+    <!-- /.btn -->
+
+  </div>
+  <!-- /.card -->
+
+  <div class="card">
+    <h2>App Counter: {{ localCounterService.counter }}</h2>
+
+    <button class="btn" (click)="localCounterService.increase()">+</button>
+    <button class="btn" (click)="localCounterService.decrease()">-</button>
+    <!-- /.btn -->
+
+  </div>
+ <hr>
+  <app-counter></app-counter>
+
 </div>
 <!-- /.container -->
 
