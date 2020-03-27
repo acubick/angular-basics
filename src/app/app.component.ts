@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { FormBuilder, FormArray, FormControl, FormGroup, Validators } from '@angular/forms'
-import { MyValidators } from './my.validators'
+
 
 
 @Component({
