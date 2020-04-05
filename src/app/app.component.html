@@ -1,1 +1,21 @@
-<h1>hi</h1>
+<div class="container">
+  <h1>Angular services</h1>
+
+  <div class="card">
+    <h2>App counter: {{ appCounterService.counter }}</h2>
+    <button class="btn" (click)="appCounterService.increase()">+</button>
+    <button class="btn btn-danger" (click)="appCounterService.decrease()">-</button>
+    <!-- /.btn -->
+  </div>
+  <!-- /.card -->
+  <div class="card">
+    <h2>Local counter: {{ localCounterService.counter }}</h2>
+    <button class="btn" (click)="localCounterService.increase()">+</button>
+    <button class="btn btn-danger" (click)="localCounterService.decrease()">-</button>
+    <!-- /.btn -->
+  </div>
+  <!-- /.card -->
+   <hr>
+  <app-counter></app-counter>
+</div>
+<!-- /.container -->
